@@ -14,7 +14,7 @@ const Home = () => {
           videography and vexillology. I also have a YouTube channel called Pigunas; here's one of my videos:
       </div>
       <div className='d-flex justify-content-center'>
-        <ReactPlayer className='ml-4' url='https://www.youtube.com/watch?v=2POFdJANTjs' />
+        <ReactPlayer className='ml-4' url='https://www.youtube.com/watch?v=20qzs64g0O4' />
       </div>
       <MyFooter />
     </div>
