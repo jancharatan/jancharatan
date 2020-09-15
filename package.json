@@ -1,6 +1,9 @@
 {
   "name": "jancharatan",
   "version": "0.1.0",
+  "engines": {
+    "node": "12.x"
+  },
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.10.2",
@@ -9,6 +12,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.5.0",
+    "node": "^14.10.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
