@@ -8,12 +8,11 @@ const Home = () => {
     <div>
       <MyNavbar />
       <div className="p-3">
-        Hi! My name is Jan Charatan and I'm a sophomore studying computer science at Pomona College
-        in Claremont, California. I'm originally from Portland, Oregon, but I've also lived in
-        Dresden, Germany and San Jose, California. I'm interested in frontend development using
-        React (what I used to make this webpage!). Some of my other interests include soccer, poker,
-        skiing, videography and vexillology. I also have a YouTube channel called Pigunas; here's
-        one of my videos:
+        Hi, my name is Jan Charatan! I'm a sophomore studying computer science at Pomona College in
+        Claremont, California. In my free time, I enjoy playing soccer and going skiing. Some of my
+        other interests include poker, videography and vexillology. I also have a YouTube channel
+        called Pigunas where I make short documentaries about topics that interest me. Here's a
+        video I made about border disputes:
       </div>
       <div className="d-flex justify-content-center">
         <ReactPlayer className="ml-4" url="https://www.youtube.com/watch?v=20qzs64g0O4" />
