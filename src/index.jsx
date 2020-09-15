@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 import Home from './Home';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter basename="/jancharatan">
     <Home />
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
