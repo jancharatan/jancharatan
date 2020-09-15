@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter } from 'react-router-dom';
 import Home from './Home';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
-  <HashRouter>
+  <React.StrictMode>
     <Home />
-  </HashRouter>,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
